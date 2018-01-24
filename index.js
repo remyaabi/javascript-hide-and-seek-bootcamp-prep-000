@@ -7,12 +7,12 @@ function getFirstSelector(selectorValue){
 function nestedTarget(){
   var element='div';
   var divNested=document.getElementById('app').querySelectorAll(`${element}#nested .target`);
-  var divTargetArray=[];
+ /* var divTargetArray=[];
   for(let i=0;i<divNested.length;i++){
     console.log("array element: " + divNested[i]);
     divTargetArray.push(divNested[i].child.querySelectorAll('.target'));
   }
-  console.log("divNested : "+ divNested);
+  console.log("divNested : "+ divNested);*/
   return divNested;
   
 }
