@@ -8,6 +8,7 @@ function nestedTarget(){
   var element='div';
   var divNested=document.getElementById('app').querySelectorAll('div#nested');
   var divTargetArray=[];
+  console.log("divNested : "+ divNested);
   for(let i=0;i<divNested.length;i++){
        var divTarget=divNested[i].child.querySelectorAll('.target');
        divTargetArray.push(divTarget);
