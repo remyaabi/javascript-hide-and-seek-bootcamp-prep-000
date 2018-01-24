@@ -29,6 +29,8 @@ function nestedTarget(){
      
    function deepestChild() {
      var childNodeOfDiv=document.getElementById('app').querySelectorAll('div#grand-node');
-     
+     for(let i=0; i<childNodeOfDiv.length;i++){
+       while(!childNodeOfDiv[i].children)
+     }
       }
     
