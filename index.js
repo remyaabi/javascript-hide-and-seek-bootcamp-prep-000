@@ -6,7 +6,7 @@ function getFirstSelector(selectorValue){
 
 function nestedTarget(){
   var element='div';
-  var divNested=document.getElementById('app').querySelectorAll('div#nested');
+  var divNested=document.getElementById('app').querySelectorAll(`${element}#nested`);
   var divTargetArray=[];
   console.log("divNested : "+ divNested);
   return divNested;
