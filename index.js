@@ -28,11 +28,8 @@ function nestedTarget(){
      }
      
    function deepestChild() {
-     var childNodeOfDiv=document.getElementById('app').querySelectorAll('div#grand-node');
-     for(let i=0; i<childNodeOfDiv.length;i++){
-       while(!childNodeOfDiv[i].children){
-         
-       }
+     var childNodeOfDiv=document.getElementById('app').querySelector('div#grand-node');
+     while(!childNodeOfDiv[0].children){
      }
       }
     
