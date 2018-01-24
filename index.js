@@ -10,7 +10,7 @@ function nestedTarget(){
   var divTargetArray=[];
   
   console.log("divNested : "+ divNested);
-  return divNested.innerHTML.querySelectorAll('.target');
+  return divNested;
   
 }
  function increaseRankBy(n){
